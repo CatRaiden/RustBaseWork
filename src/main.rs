@@ -1,3 +1,5 @@
+mod second_module;
+
 fn main() {
     println!("Hello, CatRaiden world!");
 
@@ -20,6 +22,7 @@ fn main() {
     }
 
 
+    second_module::other_function();
 }
 
 fn other_function() {
